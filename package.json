@@ -1,0 +1,44 @@
+{
+  "name": "smart-waste-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@heroicons/react": "^2.2.0",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "autoprefixer": "^10.4.17",
+    "chart.js": "^4.4.8",
+    "framer-motion": "^11.18.2",
+    "gsap": "^3.12.7",
+    "next": "^15.2.1",
+    "next-pwa": "^5.6.0",
+    "postcss": "^8.4.35",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^3.4.1",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.174.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "typescript": "^5.8.2"
+  }
+}

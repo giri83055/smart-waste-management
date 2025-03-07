@@ -1,0 +1,12 @@
+import { ThreeElements } from '@react-three/fiber'
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements extends ThreeElements {
+      group: any
+      mesh: any
+      cylinderGeometry: any
+      meshPhysicalMaterial: any
+    }
+  }
+}
